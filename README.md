@@ -188,7 +188,7 @@ public class DependencyChecker
 これらのツールやアプローチを組み合わせて、依存関係を効率的に管理できます。
 特に「Search Extensions」や「Unity Package Manager」は導入が簡単でお勧めです。
 
----
+===
 
 Unityでフォントを追加して使用する方法は簡単です。以下の手順に従ってください。
 
