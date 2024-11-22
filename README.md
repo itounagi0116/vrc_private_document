@@ -1,6 +1,6 @@
 # vrc_private_document
 
-[![GitHub license](https://img.shields.io/github/license/SeaeeesSan/SimpleFolderIcon)](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
+![ライセンスバッジ](https://img.shields.io/badge/ライセンス-MIT-007EC6)
 
 [VCC パッケージのインポートについて](https://github.com/itounagi0116/vrc_private_document/blob/main/VCC_Package_2024-11.md)
 
