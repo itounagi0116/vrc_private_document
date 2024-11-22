@@ -121,7 +121,7 @@ VRChat用のパッケージをVCCに登録するための`vpm.json`ファイル�
 - [VPM公式ドキュメント](https://vpm.docs.vrchat.com/)
 - [VRChat Community Guidelines for VCC](https://vcc.docs.vrchat.com/)
 
-===
+###
 
 Unityプロジェクト内の依存関係を効率的に調べるためのツールとして、以下のオプションを検討してください。
 これらはスクリプトやパッケージ間の関係性や、外部ライブラリとの依存関係を把握するのに役立ちます。
@@ -188,7 +188,7 @@ public class DependencyChecker
 これらのツールやアプローチを組み合わせて、依存関係を効率的に管理できます。
 特に「Search Extensions」や「Unity Package Manager」は導入が簡単でお勧めです。
 
-===
+###
 
 Unityでフォントを追加して使用する方法は簡単です。以下の手順に従ってください。
 
