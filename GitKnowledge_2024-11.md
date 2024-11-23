@@ -1,6 +1,42 @@
 GitHubを効果的に使うための基本的なマニュアルを以下にまとめました。
 これには、GitHubのアカウント作成からリポジトリの管理、プルリクエストの作成方法までをカバーしています。
 
+``` mermaid
+graph LR
+    %% 作業エリアの定義
+    subgraph ローカル
+    WD[作業ディレクトリ]
+    SA[ステージングエリア]
+    LR[ローカルリポジトリ]
+    end
+
+    subgraph リモート
+    RR[リモートリポジトリ]
+    end
+
+    %% 矢印と操作の定義
+    WD -->|git add| SA
+    SA -->|git commit| LR
+    LR -->|git push| RR
+    RR -->|git fetch| LR
+    LR -->|git merge| WD
+    RR -->|git pull| WD
+    
+    %% その他の操作
+    WD -->|git status| WD
+    LR -->|git log| LR
+    WD -->|git checkout| WD
+    
+    %% スタイル定義 - より明確な色使い
+    style WD fill:#E1F5FE,stroke:#01579B,stroke-width:2px
+    style SA fill:#FFF3E0,stroke:#E65100,stroke-width:2px
+    style LR fill:#E8F5E9,stroke:#1B5E20,stroke-width:2px
+    style RR fill:#FCE4EC,stroke:#880E4F,stroke-width:2px
+
+    %% サブグラフのスタイル
+    classDef default fill:#fff,stroke:#333,stroke-width:1px;
+```
+
 ---
 
 ### 1. **GitHubアカウントの作成**
